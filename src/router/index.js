@@ -14,6 +14,52 @@ const router = createRouter({
                     component: () => import('@/views/Dashboard.vue')
                 },
                 {
+                    path: '/pesanan',
+                    name: 'pesanan',
+                    component: () => import('@/views/halaman/Pesanan.vue')
+                },
+                {
+                    path: '/undangan-nikah',
+                    name: 'undangan-nikah',
+                    component: () => import('@/views/halaman/master/Undangan-nikah.vue')
+                },
+                {
+                    path: '/undangan-khitan',
+                    name: 'undangan-khitan',
+                    component: () => import('@/views/halaman/master/Undangan-khitan.vue')
+                },
+                {
+                    path: '/sorog',
+                    name: 'sorog',
+                    component: () => import('@/views/halaman/master/Sorog.vue')
+                },
+                {
+                    path: '/banner',
+                    name: 'banner',
+                    component: () => import('@/views/halaman/master/Banner.vue')
+                },
+                {
+                    path: '/yasin',
+                    name: 'yasin',
+                    component: () => import('@/views/halaman/master/Yasin.vue')
+                },
+                {
+                    path: '/admin',
+                    name: 'admin',
+                    component: () => import('@/views/halaman/user/Admin.vue')
+                },
+                {
+                    path: '/user',
+                    name: 'pelanggan',
+                    component: () => import('@/views/halaman/user/User.vue')
+                },
+
+                {
+                    path: '/',
+                    name: 'dashboard',
+                    component: () => import('@/views/Dashboard.vue')
+                },
+                {
                     path: '/uikit/formlayout',
                     name: 'formlayout',
                     component: () => import('@/views/uikit/FormLayout.vue')

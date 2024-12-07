@@ -9,6 +9,43 @@ const model = ref([
         items: [{ label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/' }]
     },
     {
+        label: 'Pesanan',
+        items: [
+            { label: 'Tambah Pesanan', icon: 'pi pi-fw pi-map', to: '/pesanan/tambah' },
+            { label: 'Data Pesanan', icon: 'pi pi-fw pi-bookmark-fill', to: '/pesanan' }
+        ]
+    },
+    {
+        label: 'Master',
+        items: [
+            { label: 'Undangan Nikah', icon: 'pi pi-fw pi-map', to: '/undangan-nikah' },
+            { label: 'Undangan Khitan', icon: 'pi pi-fw pi-map', to: '/undangan-khitan' },
+            { label: 'Sorog', icon: 'pi pi-fw pi-copy', to: '/sorog' },
+            { label: 'Banner', icon: 'pi pi-fw pi-image', to: '/banner' },
+            { label: 'Yasin', icon: 'pi pi-fw pi-book', to: '/yasin' }
+        ]
+    },
+    {
+        label: 'Data User',
+        items: [
+            { label: 'Admin', icon: 'pi pi-fw pi-user-plus', to: '/admin' },
+            { label: 'Pelanggan', icon: 'pi pi-fw pi-users', to: '/user' }
+        ]
+    },
+    {
+        label: ' ',
+        items: [
+            { label: ' ', icon: '', to: '/' },
+            { label: ' ', icon: '', to: '/' },
+            { label: ' ', icon: '', to: '/' },
+            { label: ' ', icon: '', to: '/' }
+        ]
+    },
+    {
+        label: 'Home',
+        items: [{ label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/' }]
+    },
+    {
         label: 'UI Components',
         items: [
             { label: 'Form Layout', icon: 'pi pi-fw pi-id-card', to: '/uikit/formlayout' },
